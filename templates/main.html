@@ -12,29 +12,48 @@
     </head>
     <body style="background-color:black">
         <nav class='navbar' style="background-color:#00a65a">
-            <a class="navbar-brand">My Book Recommender</a>
-        
-            <ul class="nav navbar-nav">
-                <li><a>Home</a></li>
-                <li><a>Recommend</a></li>
-                <li><a>Contact</a></li>
-            </ul>
+            <h2 style="padding-left: 25px" class="navbar-brand">My Book Recommender</h2>
+            
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/recommend">Recommend</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            
         </nav>
 
-        <div class="container">
+        <div class="container" >
             <div class="row">
-                <div class="col-12">
-                    <h1 class="text-white" style="font-size:50px">Top 50 Books</h1>
+                <div class="col-md-12">
+                    <h1 class="text-white" style="font-size:60px; margin-top:40px">TOP 50 BOOKS</h1>
                 </div>
 
-                <div class="col-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <img class="card-img-top" src="https://images.amazon.com/images/P/0060930535.0">
+                {% for i in range(book_name|length)%}
+
+                <div class="col-md-3" style="margin-top:60px">
+                    <div class="card" style="width: 15rem; background-color:black">
+                        <div class="card-body" width="100" height="200">
+                            <img class="card-img-top" src="{{ image[i] }}">
+                            <h2 class="text-white" style="margin-top:20px">{{ book_name[i] }}</h2>
+                            <h4 class="text-white" style="margin-top:20px">{{ author[i] }}</h4>
+                            <h4 class="text-white">{{ votes [i] }}</h4>
+                            <h4 class="text-white">{{ rating[i] }}</h4>
                         </div>
                         
                     </div>
                 </div>
+
+                {% endfor %}
+
+                <img scr="https://epub.us/wp-content/uploads/2015/09/Hitchhikers-Guide-to-the-Galaxy.jpg">
+
+    
             </div>
 
             
