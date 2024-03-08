@@ -11,11 +11,13 @@ log_dir = os.path.join(base_dir,"log")
 log_file_name = os.path.join(log_dir, "logfile" + str(date.today()) + ".log")
 pickle_dir = os.path.join(base_dir,"pickle")
 
+#logging Configuration
 logging.basicConfig(filename=log_file_name,
                     format="%(asctime)s --> %(levelname)s :: %(message)s",
                     filemode='w')
 logger = logging.getLogger()
 
+# Unloading Pickle
 popular_df = pickle.load(open(os.path.join(pickle_dir,"popular.pkl"),"rb"))
 pt = pickle.load(open(os.path.join(pickle_dir,"pt.pkl"),"rb"))
 similarity_score = pickle.load(open(os.path.join(pickle_dir,"similarity_score.pkl"),"rb"))
