@@ -2,6 +2,8 @@
 2024-03-07 12:55:07,881 --> INFO ::  * Debugger PIN: 300-481-165
 2024-03-07 12:55:13,497 --> INFO :: 127.0.0.1 - - [07/Mar/2024 12:55:13] "GET / HTTP/1.1" 200 -
 2024-03-07 12:55:16,142 --> INFO :: 127.0.0.1 - - [07/Mar/2024 12:55:16] "GET /recommend HTTP/1.1" 200 -
-2024-03-07 12:55:18,025 --> INFO :: 127.0.0.1 - - [07/Mar/2024 12:55:18] "GET / HTTP/1.1" 200 -
+202024-03-07 12:57:40,444 --> INFO ::  * Restarting with stat
+12:55:18] "GET / HTTP/1.1" 200 -
 2024-03-07 12:55:19,322 --> INFO :: 127.0.0.1 - - [07/Mar/2024 12:55:19] "GET /recommend HTTP/1.1" 200 -
 2024-03-07 12:55:25,865 --> INFO :: 127.0.0.1 - - [07/Mar/2024 12:55:25] "POST /recommend_book HTTP/1.1" 200 -
+2024-03-07 12:57:40,368 --> INFO ::  * Detected change in 'D:\\DataScience\\BookRecommendationSystem\\app.py', reloading
