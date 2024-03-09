@@ -70,4 +70,4 @@ def recommend():
         return render_template("recommend2.html")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
