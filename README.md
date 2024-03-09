@@ -9,16 +9,16 @@
 
 ## Demo
 
-1. Home page will display the top 50 Popular book according to users.
+1. The home page will display the top 50 popular books according to users.
 ![Home Page](https://github.com/rawatshubham09/BookRecommendationSystem/blob/main/files/first.png)
 
-2. After Clicking on Recommend button in the top right corner in title bar.
+2. After clicking on the Recommend button in the top right corner of the title bar, you can proceed with your desired action.
 ![Recommend](https://github.com/rawatshubham09/BookRecommendationSystem/blob/main/files/second.png)
 
 3. Write the book name and press the button.
 ![Search box](https://github.com/rawatshubham09/BookRecommendationSystem/blob/main/files/Third.png)
 
-4. Here are some output, it will display 8 top matching book.
+4. Here are the top 8 matching books displayed as output.
 ![Books Page](https://github.com/rawatshubham09/BookRecommendationSystem/blob/main/files/Fourth.png)
 
 
@@ -35,7 +35,7 @@ Install my-project and open window terminal to local directory
 ## Features
 
 - It provides a personalized book recommendation service based on the user's preferences and reading history.
-- It displays the book covers, titles, authors, genres, ratings, and summaries of the top 50 popular books on the home page.
+- It displays the book covers, titles, authors, genres, ratings of the top 50 popular books on the home page.
 - It allows the user to search for book by title and get a list of similar books that they might like.
 - It supports responsive web design and adapts to different screen sizes and devices, such as desktops, laptops, tablets, and smartphones.
 - It has a user-friendly interface and a simple navigation system that makes it easy to browse and explore the website.
